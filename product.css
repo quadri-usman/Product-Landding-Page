@@ -1,0 +1,598 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    max-width: 20ch;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    align-items: center;
+    gap: 30em;
+    position: fixed;
+}
+#header-img{
+    width: 280px;
+}
+#nav-bar{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4em;    
+    font-weight: normal;
+    
+}
+form{
+    padding-top: 100px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 1.5em;
+}
+input{
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    width: 280px;
+    border: 1px solid gray;
+    background-color: rgb(238, 238, 238);
+}
+#submit{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(132, 131, 131);
+    margin: 20px auto 80px;
+    padding: 12px 0;
+    width: 150px;
+    border: none;
+    background-color: rgb(241, 196, 15);
+}
+#submit:hover{
+    background-color: rgb(240, 212, 100);   
+}
+section#center{
+    width: 80%;
+    margin: 0 auto;
+}
+.Premium{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fast{
+    width: 85%;
+    padding: 30px 0;
+}
+.Premium i{
+    color: rgb(238, 238, 238);
+    border: 1px solid orange;
+    width: 30px;
+    height: 30px;
+}
+.Premium p{
+    font-weight: normal;
+    padding-top: 5px;
+}
+.video{
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+#video{
+    width: 100%;
+}
+#products{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 30%;
+    line-height: 2em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.background{
+    background: rgb(221, 221, 221);
+    padding: 10px 0;
+}
+h2{
+    font-size: 1.0em;
+    font-weight: 700;
+}
+.product p{
+    font-weight: normal;
+}
+.product button{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px auto;
+    padding: 12px 0;
+    width: 100px;
+    border: none;
+    background-color: rgb(248, 199, 5);
+}
+.product button:hover{
+    background-color: rgb(249, 211, 63);   
+}   
+.product button a{
+    color: rgb(160, 153, 153);
+}
+footer{
+    background: rgb(221, 221, 221);
+    width: 70%;
+    margin: 0 auto;
+    text-align: right;
+    padding: 20px 0;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+footer a{
+    margin-right: 30px;
+}
+footer p{
+    font-size: 1.0em;
+    margin-right: 20px;
+}
+@media (max-width: 1100px){
+    #header{
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+        align-items: center;
+        gap: 20em;
+    }
+    #header-img{
+        width: 250px;
+    }
+    #nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3em;    
+        font-weight: normal;
+    }
+}
+@media (max-width: 900px){
+    #header{
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+        align-items: center;
+        gap: 10em;
+    }
+    #header-img{
+        width: 250px;
+    }
+    #nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3em;    
+        font-weight: normal;
+    }
+}
+@media (max-width: 690px){
+    #header{
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+        align-items: center;
+        gap: 7em;
+    }
+    #header-img{
+        width: 150px;
+    }
+    #nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.0em;    
+        font-weight: normal;
+    }
+    form{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    input{
+        width: 240px;
+    }
+    #submit{
+        font-size: 14px;
+        margin: 20px auto 50px;
+        padding: 12px 0;
+        width: 120px;
+    }
+    section#center{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fast{
+        width: 85%;
+        padding: 20px 0;
+    }
+    .Premium img{
+        width: 35px;
+    }
+    .Premium p{
+        font-size: 1em;
+    }
+    .video{
+        width: 80%;
+    }
+    #video{
+        width: 100%;
+    }
+    #products{
+        display: block;
+        width: 80%;       
+    }
+    .product{
+        width:70%;
+        line-height: 2em;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    h2{
+        font-size: 1.0em;
+        font-weight: 700;
+    }
+    .product p{
+        font-weight: normal;
+    }
+    footer{
+        width: 90%;        
+    }
+    footer a{
+        margin-right: 30px;
+    }
+    footer p{
+        font-size: 1.0em;
+        margin-right: 20px;
+    }
+    
+}
+@media (max-width: 500px){
+    #header{
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+        align-items: center;
+        gap: 4em;
+    }
+    #header-img{
+        width: 130px;
+    }
+    #nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.0em;    
+        font-weight: normal;
+    }
+    a{
+        font-size: .9em;
+    }
+    form{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    input{
+        width: 240px;
+    }
+    #submit{
+        font-size: 14px;
+        margin: 20px auto 50px;
+        padding: 12px 0;
+        width: 120px;
+    }
+    section#center{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fast{
+        width: 85%;
+        padding: 20px 0;
+    }
+    .Premium img{
+        width: 35px;
+    }
+    .Premium p{
+        font-size: .7em;
+    }
+    .video{
+        width: 80%;
+    }
+    #video{
+        width: 100%;
+    }
+    #products{
+        display: block;
+        width: 80%;       
+    }
+    .product{
+        width:70%;
+        line-height: 2em;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    h2{
+        font-size: 1.0em;
+        font-weight: 700;
+    }
+    footer a{
+        font-size: .9em;
+        margin-right: 30px;
+    }
+    footer p{
+        font-size: .9em;
+        margin-right: 20px;
+    }
+    
+}
+@media (max-width: 450px){
+h1{
+    font-size: .9em;
+}
+form{
+    width: 100%;
+}
+.Premium p{
+    font-size: .7em;
+}
+.product p{
+    font-size: .8em;
+}
+.Premium i{
+    color: rgb(238, 238, 238);
+    border: 1px solid orange;
+    width: 30px;
+    height: 30px;
+}
+}
+@media (max-width: 420px){
+    #header{
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+        align-items: center;
+        gap: 2.0em;
+    }
+    #header-img{
+        width: 100px;
+    }
+    #nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: .6em;    
+        font-weight: normal;
+    }
+    a{
+        font-size: .7em;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h1{
+        font-size: .8em;
+    }
+    input{
+        width: 180px;
+    }
+    #submit{
+        font-size: 12px;
+        margin: 20px auto 30px;
+        padding: 12px 0;
+        width: 120px;
+    }
+    section#center{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fast{
+        width: 85%;
+        padding: 15px 0;
+    }
+    .Premium img{
+        width: 30px;
+    }
+    .Premium p{
+        font-size: .6em;
+    }
+    .video{
+        width: 80%;
+    }
+    #video{
+        width: 100%;
+        height: 40%;
+    }
+    #products{
+        display: block;
+        width: 80%;  
+        padding: 30px 0;     
+    }
+    .product{
+        width:70%;
+        line-height: 1.7em;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+    }
+    h2{
+        font-size: .8em;
+        font-weight: 700;
+    }
+    footer{
+        padding: 10px 0;
+    }
+    footer a{
+        font-size: .8em;
+        margin-right: 20px;
+    }
+    footer p{
+        font-size: .8em;
+        margin-right: 15px;
+    }
+    
+}
+@media (max-width: 300px){
+    #header{
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+        align-items: center;
+        gap: 1.5em;
+    }
+    #header-img{
+        width: 80px;
+    }
+    #nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: .5em;    
+        font-weight: normal;
+    }
+    a{
+        font-size: .6em;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h1{
+        font-size: .6em;
+    }
+    input{
+        width: 150px;
+        font-size: .6em;
+    }
+    #submit{
+        font-size: 8px;
+        margin: 20px auto 30px;
+        padding: 12px 0;
+        width: 100px;
+    }
+    section#center{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fast{
+        width: 85%;
+        padding: 10px 0;
+    }
+    .Premium img{
+        width: 25px;
+    }
+    .Premium p{
+        font-size: .5em;
+    }
+    .video{
+        width: 80%;
+    }
+    #video{
+        width: 100%;
+        height: 35%;
+    }
+    #products{
+        display: block;
+        width: 80%;  
+        padding: 30px 0;     
+    }
+    .product{
+        width:80%;
+        line-height: 1.2em;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+    }
+    h2{
+        font-size: .7em;
+        font-weight: 700;
+    }
+    .Premium i{
+        color: rgb(238, 238, 238);
+        border: 1px solid orange;
+        width: 20px;
+        height: 20px;
+    }
+    .product p{
+        font-size: .7em;
+    }
+    footer{
+        padding: 10px 0;
+    }
+    footer a{
+        font-size: .6em;
+        margin-right: 15px;
+    }
+    footer p{
+        font-size: .6em;
+        margin-right: 10px;
+    }
+    
+}
+@media (max-width: 250px){
+    #header{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        align-items: center;
+        gap: .6em;
+    }
+    #header-img{
+        width: 70px;
+    }
+    #nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: .3em;    
+        font-weight: normal;
+    }
+    a{
+        font-size: .5em;
+    }
+    .Premium i{
+        color: rgb(238, 238, 238);
+        border: 1px solid orange;
+        width: 20px;
+        height: 20px;
+    }
+    .Premium p{
+        font-size: .4em;
+    }
+}
